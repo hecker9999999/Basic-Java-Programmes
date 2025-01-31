@@ -10,8 +10,9 @@ public class take_input_from_user {
         try (Scanner s = new Scanner(System.in)) {
             number = s.nextInt();
             System.out.println("your entered number is : " + number);
-            // closing the Scanner object
-            // this is to prevent resource leaks
+
+            // by using 'try-with-resources' statement, there is no need to explicitly close the scanner object
+            
         }
     }
 }
@@ -35,6 +36,7 @@ public class take_input_from_user {
 
         // closing the Scanner object
         s.close();   // this is to prevent resource leaks
+        // this is to prevent resource leaks
     }
 }
 

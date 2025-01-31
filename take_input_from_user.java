@@ -16,7 +16,9 @@ public class take_input_from_user {
     }
 }
 
-// can also be used
+
+
+// *****************can also be used******************
 
 /*  
 
@@ -35,5 +37,5 @@ public class take_input_from_user {
         s.close();   // this is to prevent resource leaks
     }
 }
-    
+
     */
